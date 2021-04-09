@@ -1,0 +1,32 @@
+.chat {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.my {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.info {
+  display: none;
+  margin: 0px 10px;
+}
+.my:hover .info {
+  display: flex;
+}
+.her {
+  display: flex;
+  align-items: center;
+}
+.her:hover .info {
+  display: flex;
+}
+.del {
+  cursor: pointer;
+}
